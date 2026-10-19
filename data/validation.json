@@ -1,0 +1,137 @@
+{
+  "asOf": "2026-10-19",
+  "pivot": "2022-11-18",
+  "start": "2018-12-18",
+  "gameCount": 125,
+  "playFiles": {
+    "2018": {
+      "inputRows": 56450,
+      "tennesseeRows": 2603,
+      "matchedGameCount": 2
+    },
+    "2019": {
+      "inputRows": 56431,
+      "tennesseeRows": 2685,
+      "matchedGameCount": 16
+    },
+    "2020": {
+      "inputRows": 46092,
+      "tennesseeRows": 2781,
+      "matchedGameCount": 16
+    },
+    "2021": {
+      "inputRows": 56009,
+      "tennesseeRows": 2919,
+      "matchedGameCount": 17
+    },
+    "2022": {
+      "inputRows": 55754,
+      "tennesseeRows": 2827,
+      "matchedGameCount": 17
+    },
+    "2023": {
+      "inputRows": 56017,
+      "tennesseeRows": 2818,
+      "matchedGameCount": 17
+    },
+    "2024": {
+      "inputRows": 55664,
+      "tennesseeRows": 2794,
+      "matchedGameCount": 17
+    },
+    "2025": {
+      "inputRows": 55080,
+      "tennesseeRows": 2738,
+      "matchedGameCount": 17
+    },
+    "2026": {
+      "inputRows": 21255,
+      "tennesseeRows": 808,
+      "matchedGameCount": 5
+    }
+  },
+  "excludedRows": {
+    "preseason/postseason/bye": 31,
+    "outside date window": 34
+  },
+  "scoreCorrections": [
+    {
+      "game": "(2026, 'WEEK 6', 'TEN', 'IND')",
+      "originalStatus": "TBD",
+      "originalAwayScore": null,
+      "originalHomeScore": null,
+      "correctedAwayScore": 26,
+      "correctedHomeScore": 20,
+      "url": "https://www.nfl.com/games/titans-at-colts-2026-reg-6"
+    }
+  ],
+  "issues": [],
+  "playoffGames": [
+    {
+      "season": 2019,
+      "round": "WILD CARD WEEKEND",
+      "result": "W",
+      "pf": 20,
+      "pa": 13
+    },
+    {
+      "season": 2019,
+      "round": "DIVISIONAL PLAYOFFS",
+      "result": "W",
+      "pf": 28,
+      "pa": 12
+    },
+    {
+      "season": 2019,
+      "round": "CONFERENCE CHAMPIONSHIPS",
+      "result": "L",
+      "pf": 24,
+      "pa": 35
+    },
+    {
+      "season": 2020,
+      "round": "WILD CARD WEEKEND",
+      "result": "L",
+      "pf": 13,
+      "pa": 20
+    },
+    {
+      "season": 2021,
+      "round": "DIVISIONAL PLAYOFFS",
+      "result": "L",
+      "pf": 16,
+      "pa": 19
+    }
+  ],
+  "divisionTitleSeasons": [
+    2020,
+    2021
+  ],
+  "notes": [
+    "Scores supplied by user; Week 6 2026 score supplemented from NFL.com official game center.",
+    "2026 Week 6 play-level data is not included in the uploaded 2026_plays.csv.",
+    "Play outcome tag counts are exploratory; do not treat as official team play totals.",
+    "Playoff appearances based on supplied postseason game rows.",
+    "Division title metadata (2020, 2021) maintained separately from game outcomes."
+  ],
+  "summary": {
+    "before": {
+      "games": 61,
+      "wins": 40,
+      "losses": 21,
+      "ties": 0,
+      "pct": 65.57,
+      "pointsFor": 1547,
+      "pointsAgainst": 1358
+    },
+    "after": {
+      "games": 64,
+      "wins": 13,
+      "losses": 51,
+      "ties": 0,
+      "pct": 20.31,
+      "pointsFor": 1089,
+      "pointsAgainst": 1608
+    }
+  }
+}
